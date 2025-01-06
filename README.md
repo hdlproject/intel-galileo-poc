@@ -27,7 +27,7 @@ $ diskutil eject <disk name>
 ```shell
 $ brew install screen
 $ ls /dev/tty.*
-$ screen /dev/tty.usbmodem114301 115200
+$ screen <usb device name> 115200
 ```
 
 ## TODO
