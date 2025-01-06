@@ -31,6 +31,7 @@ $ screen /dev/tty.usbmodem114301 115200
 ```
 
 ## TODO
+### Linux mode
 - Check this error when executing `bitbake core-image-minimal`
     ```
     ERROR:  OE-core's config sanity checker detected a potential misconfiguration.
@@ -39,4 +40,11 @@ $ screen /dev/tty.usbmodem114301 115200
     
         Do not use Bitbake as root.
     ```
+
+### Arduino mode
+- Check this error when uploading a sketch
+  ```
+  fork/exec /Users/pintu/Library/Arduino15/packages/Intel/tools/i586-poky-linux-uclibc/1.6.2+1.0/i586/pokysdk/usr/bin/i586-poky-linux-uclibc/i586-poky-linux-uclibc-g++: no such file or directory
   
+  Compilation error: fork/exec /Users/pintu/Library/Arduino15/packages/Intel/tools/i586-poky-linux-uclibc/1.6.2+1.0/i586/pokysdk/usr/bin/i586-poky-linux-uclibc/i586-poky-linux-uclibc-g++: no such file or directory
+  ```
