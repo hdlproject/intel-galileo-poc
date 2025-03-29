@@ -31,7 +31,7 @@ $ screen <usb device name> 115200
 ```
 
 ## TODO
-The software that is required for this hardware may be obsolete.
+The software required for this hardware may be obsolete, so we may no longer be able to use it.
 
 ### Linux mode
 - Check this error when executing `bitbake core-image-minimal`
